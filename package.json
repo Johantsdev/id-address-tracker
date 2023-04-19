@@ -1,8 +1,7 @@
 {
   "name": "ip-address-tracker-master",
   "version": "1.0.0",
-  "description": "![Design preview for the IP address tracker coding challenge](./design/desktop-preview.jpg)",
-  "main": "index.js",
+  "description": "frontend mentor chalenge",
   "scripts": {
     "dev": "parcel src/index.html",
     "build": "parcel build src/index.html"
