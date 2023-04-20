@@ -1,22 +1,14 @@
 import ReactDOM from "react-dom/client";
+import Header from "./components/Header";
+import Map from "./components/Map";
+import Attribution from "./components/Attribution";
 
 const App = () => {
   return (
     <div>
-      IP Address Tracker Search for any IP address or domain IP Address Location
-      Timezone UTC {"<!-- add offset value dynamically using the API -->"}
-      ISP
-      <div className="attribution">
-        Challenge by{" "}
-        <a
-          href="https://www.frontendmentor.io?ref=challenge"
-          rel="noreferrer"
-          target="_blank"
-        >
-          Frontend Mentor
-        </a>
-        . Coded by <a href="./">Your Name Here</a>.
-      </div>
+      <Header />
+      <Map />
+      <Attribution />
     </div>
   );
 };
