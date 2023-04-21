@@ -1,10 +1,4 @@
-const Details = ({
-  ip = "",
-  country = "",
-  region = "",
-  timezone = "",
-  isp = "",
-}) => {
+const Details = ({ ip, country, region, timezone, isp }) => {
   return (
     <div className="details-container">
       <div className="detail">

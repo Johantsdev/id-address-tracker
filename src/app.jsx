@@ -1,13 +1,12 @@
 import ReactDOM from "react-dom/client";
-import Header from "./components/Header";
-import Map from "./components/Map";
+import SearchInput from "./components/SearchInput";
 import Attribution from "./components/Attribution";
 
 const App = () => {
   return (
     <div>
-      <Header />
-      <Map />
+      <h1>IP Address Tracker</h1>
+      <SearchInput />
       <Attribution />
     </div>
   );
