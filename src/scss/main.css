@@ -1,0 +1,15 @@
+body {
+  background-color: green;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+#map {
+  height: 180px;
+}/*# sourceMappingURL=main.css.map */
